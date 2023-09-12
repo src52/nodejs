@@ -15,7 +15,7 @@ app.put('/items/:id', updateItem);
 app.delete('/items/:id', deleteItem);
 
 db.init().then(() => {
-    app.listen(52524, () => console.log('Listening on port 3000'));
+    app.listen(52524, () => console.log('Listening on port 52524'));
 }).catch((err) => {
     console.error(err);
     process.exit(1);
